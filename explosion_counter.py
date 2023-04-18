@@ -19,7 +19,7 @@ webs = ''
 for item in result:
     webs = webs.lower() + item + '\n'
 
-#Regex to remove unnecessary string elements
+#remove unnecessary string elements
 sub_str = '#cite_note-459'
 new_string = webs.split(sub_str)
 product = new_string[0]+sub_str
