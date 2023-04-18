@@ -34,7 +34,3 @@ else:
     print(f'{country.title()} has experienced {final} major explosion')
 
 
-#file = open('explosions.txt', 'w')
-#file.write(product)
-#file.close()
-
