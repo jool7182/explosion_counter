@@ -25,7 +25,7 @@ new_string = webs.split(sub_str)
 product = new_string[0]+sub_str
 
 #Gets user input and counts
-country = input('Type the name of a country to see how many major explosions it has experienced: ')
+country = input('Type the name of a country to see how many major explosions it has experienced in its history: ')
 country = country.lower()
 final = product.count(country)
 if final > 1 or final < 1:
